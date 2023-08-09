@@ -1,0 +1,84 @@
+.sct-1{ 
+    user-select: none;
+    .how_it{ 
+        color: rgba(74, 85, 108, 0.50);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        padding-top: 92px;
+    }
+    .you_ready{ 
+        padding-top: 12px;
+        color: #333461;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 44px; /* 122.222% */
+        letter-spacing: -0.72px;
+    }
+    .center{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .lorem1{ 
+            color: rgba(74, 85, 108, 0.70);
+            text-align: center;
+            font-family: sans-serif;
+            width: 768px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 150% */
+            padding-top: 20px;
+        }
+        .readyP{ 
+            color: #333461;
+            text-align: center;
+            font-family: sans-serif;
+            padding-top: 20px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; /* 120% */
+        }
+        .lorem2{ 
+            color: #667085;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+            width: 384px;
+        }
+    }
+    .elements{ 
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 64px;
+        column-gap: 32px;
+        row-gap: 64px;
+        .box{ 
+            .center{ 
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .oval{ 
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    background: #FAF8F6;
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
