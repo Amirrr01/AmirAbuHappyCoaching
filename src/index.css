@@ -30,6 +30,13 @@
   background: #20ad96;
   border: none;
 }
+.navButton:hover{ 
+  transform: scale(1.1);
+  transition: .3s;
+}
 .navA:hover {
   color: rgb(96, 158, 189);
+}
+.logoNavbar{ 
+  cursor: pointer;
 }

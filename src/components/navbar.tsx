@@ -7,7 +7,7 @@ function NavbarMain({}: NavbarProps) {
   return (
     <nav className="navbar">
       <Flex sx={{ justifyContent: "space-between" }} gap={1000}>
-        <img src={img} alt="" />
+        <img src={img} alt="" className="logoNavbar"/>
         <Flex gap={30} align="center">
           <a href="" className="navA">
             Home
